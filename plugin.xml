@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-ios-permissions" version="1.0.0">
+    <name>Cordova iOS Permission Translations</name>
+    <description>This Plugin translates the NSCameraUsageDescription-Permission</description>
+    <license>MIT</license>
+    <repo>https://github.com/ruettenm/cordova-plugin-ios-permission-translations.git</repo>
+
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+            <string>To scan the barcode on your METRO card</string>
+        </config-file>
+        <resource-file src="src/ios/de.lproj" />
+        <resource-file src="src/ios/en.lproj" />
+        <resource-file src="src/ios/es.lproj" />
+        <resource-file src="src/ios/nl.lproj" />
+        <resource-file src="src/ios/ro.lproj" />
+        <resource-file src="src/ios/tr.lproj" />
+    </platform>
+</plugin>
