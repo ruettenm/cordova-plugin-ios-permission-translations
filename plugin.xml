@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-ios-permission-translations" version="1.1.0">
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-ios-permission-translations" version="1.2.0">
     <name>Cordova iOS Permission Translations</name>
     <description>This Plugin translates the NSCameraUsageDescription-Permission</description>
     <license>MIT</license>
@@ -15,5 +15,6 @@
         <resource-file src="src/ios/nl.lproj" />
         <resource-file src="src/ios/ro.lproj" />
         <resource-file src="src/ios/tr.lproj" />
+        <resource-file src="src/ios/md.lproj" />
     </platform>
 </plugin>
