@@ -15,6 +15,5 @@
         <resource-file src="src/ios/nl.lproj" />
         <resource-file src="src/ios/ro.lproj" />
         <resource-file src="src/ios/tr.lproj" />
-        <resource-file src="src/ios/md.lproj" />
     </platform>
 </plugin>
